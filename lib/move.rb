@@ -1,4 +1,4 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -10,9 +10,9 @@ end
 
 # code your input_to_index and move method here!
 
-def input_to_index
-  display_board(board)
-  puts "Where would you like to go?"
-  move = gets.strip.to.i - 1
-  puts move
-end
+# def input_to_index
+#   display_board(board)
+#   puts "Where would you like to go?"
+#   move = gets.strip.to.i - 1
+#   puts move
+# end
