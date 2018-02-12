@@ -11,3 +11,5 @@ puts "Welcome to Tic Tac Toe!"
 player = input_to_index(gets)
 
 move(board, player)
+
+display_board(board)
