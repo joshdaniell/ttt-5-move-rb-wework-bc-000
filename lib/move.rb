@@ -10,6 +10,6 @@ end
 
 # code your input_to_index and move method here!
 
-def input_to_index
-  move = gets.strip.to.i - 1
+def input_to_index(user_input)
+  user_input.to.i - 1
 end
